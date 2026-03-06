@@ -1,9 +1,12 @@
+
 body{
 font-family: 'Poppins', sans-serif;
-background: linear-gradient(to right,#00c6ff,#0072ff);
+background: linear-gradient(to right, #00c6ff, #0072ff);
 text-align:center;
 color:white;
-height:100vh;
+min-height:95vh;
+display:flex;
+flex-direction:column;
 padding:20px;
 }
 
@@ -72,9 +75,8 @@ border-radius:5px;
 cursor:pointer;
 }
 footer{
-margin-top:40px;
-padding:15px;
-background:rgba(0,0,0,0.2);
+margin-top:auto;
 border-radius:10px;
 font-size:14px;
 }
+
